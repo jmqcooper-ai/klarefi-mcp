@@ -1,0 +1,14 @@
+{
+  "name": "klarefi",
+  "version": "0.3.0",
+  "description": "Complete regulated intake work and retrieve cited case files with Klarefi.",
+  "author": {
+    "name": "Klarefi",
+    "email": "support@klarefi.com"
+  },
+  "homepage": "https://www.klarefi.com/docs/guides/agent-intake",
+  "repository": "https://github.com/jmqcooper-ai/klarefi-mcp",
+  "license": "ISC",
+  "keywords": ["mcp", "intake", "compliance", "case-review"],
+  "mcpServers": "./mcp.json"
+}

@@ -1,0 +1,32 @@
+{
+  "name": "klarefi",
+  "displayName": "Klarefi",
+  "version": "0.3.0",
+  "minClientVersions": {
+    "cursor": "3.13.0"
+  },
+  "description": "Complete regulated intake work and retrieve cited case files with Klarefi.",
+  "author": {
+    "name": "Klarefi",
+    "email": "support@klarefi.com"
+  },
+  "homepage": "https://www.klarefi.com/docs/guides/agent-intake",
+  "repository": "https://github.com/jmqcooper-ai/klarefi-mcp",
+  "license": "ISC",
+  "logo": "assets/logo.svg",
+  "keywords": ["mcp", "intake", "compliance", "case-review"],
+  "category": "integrations",
+  "tags": ["mcp", "productivity", "compliance"],
+  "variables": {
+    "type": "object",
+    "properties": {
+      "KLAREFI_API_KEY": {
+        "type": "string",
+        "title": "Klarefi API key",
+        "description": "A Klarefi API key for customer tools. Create one in Developer Settings."
+      }
+    },
+    "required": ["KLAREFI_API_KEY"]
+  },
+  "mcpServers": "./mcp.json"
+}

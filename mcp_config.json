@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "klarefi": {
+      "serverUrl": "https://www.klarefi.com/mcp",
+      "headers": {
+        "Authorization": "Bearer ${KLAREFI_API_KEY}"
+      }
+    }
+  }
+}

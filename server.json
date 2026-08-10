@@ -1,0 +1,51 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.klarefi/mcp",
+  "title": "Klarefi",
+  "description": "Complete regulated intake work and retrieve cited case files without deciding the case.",
+  "repository": {
+    "url": "https://github.com/jmqcooper-ai/klarefi-mcp",
+    "source": "github"
+  },
+  "version": "0.3.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.klarefi.com/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer followed by a Klarefi API key. This is optional for applicant intake tools.",
+          "isRequired": false,
+          "isSecret": true
+        }
+      ]
+    }
+  ],
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@klarefi/mcp",
+      "version": "0.3.0",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "KLAREFI_API_KEY",
+          "description": "Klarefi API key. This is optional for applicant intake tools.",
+          "format": "string",
+          "isRequired": false,
+          "isSecret": true
+        },
+        {
+          "name": "KLAREFI_API_BASE_URL",
+          "description": "Optional Klarefi deployment URL.",
+          "format": "string",
+          "isRequired": false,
+          "isSecret": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "name": "klarefi",
+  "version": "0.3.0",
+  "description": "Complete regulated intake work and retrieve cited case files with Klarefi.",
+  "author": {
+    "name": "Klarefi",
+    "email": "support@klarefi.com",
+    "url": "https://www.klarefi.com"
+  },
+  "homepage": "https://www.klarefi.com/docs/guides/agent-intake",
+  "repository": "https://github.com/jmqcooper-ai/klarefi-mcp",
+  "license": "ISC",
+  "keywords": ["mcp", "intake", "compliance", "case-review"],
+  "interface": {
+    "displayName": "Klarefi",
+    "shortDescription": "Complete regulated intake work.",
+    "longDescription": "Gather applicant context, work with documents, complete missing facts, and retrieve cited case files. Klarefi leaves regulated decisions with people.",
+    "developerName": "Klarefi",
+    "category": "Productivity",
+    "capabilities": ["Remote MCP", "Interactive", "Read", "Write"],
+    "websiteURL": "https://www.klarefi.com",
+    "privacyPolicyURL": "https://www.klarefi.com/privacy",
+    "termsOfServiceURL": "https://www.klarefi.com/terms",
+    "brandColor": "#0B0D0E",
+    "composerIcon": "./assets/logo.svg",
+    "logo": "./assets/logo.svg",
+    "defaultPrompt": [
+      "Show the cases that need review.",
+      "Open this Klarefi intake and complete the next step.",
+      "Prepare the cited case file for this intake."
+    ]
+  },
+  "mcpServers": "./.mcp.json"
+}
