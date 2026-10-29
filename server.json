@@ -2,7 +2,7 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "com.klarefi/mcp",
   "title": "Klarefi",
-  "description": "Complete regulated intake work and retrieve cited case files without deciding the case.",
+  "description": "AI intake agent for independent business lenders. It completes the file and your credit team decides.",
   "repository": {
     "url": "https://github.com/jmqcooper-ai/klarefi-mcp",
     "source": "github"

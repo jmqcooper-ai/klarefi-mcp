@@ -2,7 +2,7 @@
   "name": "klarefi",
   "displayName": "Klarefi",
   "version": "0.3.0",
-  "description": "Complete regulated intake work and retrieve cited case files with Klarefi.",
+  "description": "Klarefi is an AI intake agent for independent business lenders. Complete intake work and retrieve cited case files.",
   "publisher": "Klarefi",
   "homepage": "https://www.klarefi.com/docs/guides/agent-intake",
   "repository": "https://github.com/jmqcooper-ai/klarefi-mcp",

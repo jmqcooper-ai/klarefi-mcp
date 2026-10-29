@@ -1,8 +1,9 @@
 # Klarefi MCP
 
-Klarefi completes regulated intake work before a person reviews the case. The
-MCP server can guide applicants, read cited case files, manage workflow drafts,
-and run approved connector actions. It does not decide a case.
+Klarefi is an AI intake agent for independent business lenders. It completes
+the file and your credit team decides. The MCP server can guide applicants,
+read cited case files, manage workflow drafts and run approved connector
+actions.
 
 ## Hosted server
 

@@ -2,7 +2,7 @@
 
 ## Short description
 
-Complete regulated intake work and retrieve cited case files with Klarefi.
+Klarefi is an AI intake agent for independent business lenders. Complete intake work and retrieve cited case files.
 
 ## Full description
 

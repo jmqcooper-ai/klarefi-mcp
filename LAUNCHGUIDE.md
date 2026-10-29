@@ -2,11 +2,11 @@
 
 ## Tagline
 
-Complete regulated intake work before human review.
+AI intake agent for independent business lenders.
 
 ## Description
 
-Klarefi guides applicants, reads submitted documents, resolves workflow facts with cited evidence, and prepares case files for operators. It also lets approved clients create intake sessions, inspect the operator queue, save workflow drafts, and run controlled connector actions.
+Klarefi is an AI intake agent for independent business lenders. It guides applicants, reads submitted documents, resolves workflow facts with cited evidence, and prepares case files for operators. It also lets approved clients create intake sessions, inspect the operator queue, save workflow drafts, and run controlled connector actions.
 
 Klarefi completes the intake. It does not decide the case.
 
