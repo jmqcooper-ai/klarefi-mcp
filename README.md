@@ -1,7 +1,8 @@
 # Klarefi MCP
 
-Klarefi is an AI intake agent for independent business lenders. It completes
-the file and your credit team decides. The MCP server can guide applicants,
+[Klarefi](https://www.klarefi.com) is an AI intake agent for lending, mortgage,
+insurance and legal teams. It reads what customers send in, asks for anything
+missing and links each fact to its source. Your team makes the decision. The MCP server can guide applicants,
 read cited case files, manage workflow drafts and run approved connector
 actions.
 
