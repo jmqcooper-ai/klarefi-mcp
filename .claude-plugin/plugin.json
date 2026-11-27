@@ -1,7 +1,7 @@
 {
   "name": "klarefi",
-  "version": "0.3.0",
-  "description": "Klarefi is an AI intake agent for independent business lenders. Complete intake work and retrieve cited case files.",
+  "version": "0.4.0",
+  "description": "Klarefi is an AI intake agent for lending, insurance, legal and public-sector teams: it reads files, asks for missing items, cites every fact. A person decides.",
   "author": {
     "name": "Klarefi",
     "email": "support@klarefi.com"
@@ -10,5 +10,5 @@
   "repository": "https://github.com/jmqcooper-ai/klarefi-mcp",
   "license": "ISC",
   "keywords": ["mcp", "intake", "compliance", "case-review"],
-  "mcpServers": "./mcp.json"
+  "privacyPolicyUrl": "https://www.klarefi.com/privacy"
 }

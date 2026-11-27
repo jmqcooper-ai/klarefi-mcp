@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "klarefi": {
+      "url": "https://www.klarefi.com/mcp",
+      "bearer_token_env_var": "KLAREFI_API_KEY"
+    }
+  }
+}

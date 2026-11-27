@@ -1,0 +1,19 @@
+{
+  "name": "klarefi",
+  "version": "0.4.0",
+  "description": "Open Klarefi intake sessions and read cited case files.",
+  "mcpServers": {
+    "klarefi": {
+      "httpUrl": "https://www.klarefi.com/mcp",
+      "headers": { "Authorization": "Bearer ${KLAREFI_API_KEY}" }
+    }
+  },
+  "settings": [
+    {
+      "name": "Klarefi API key",
+      "description": "Use a test key from Klarefi Settings → Developers.",
+      "envVar": "KLAREFI_API_KEY",
+      "sensitive": true
+    }
+  ]
+}

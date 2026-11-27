@@ -1,7 +1,7 @@
 {
   "name": "klarefi",
-  "version": "0.3.0",
-  "description": "Klarefi is an AI intake agent for independent business lenders. Complete intake work and retrieve cited case files.",
+  "version": "0.4.0",
+  "description": "Klarefi is an AI intake agent for lending, insurance, legal and public-sector teams: it reads files, asks for missing items, cites every fact. A person decides.",
   "author": {
     "name": "Klarefi",
     "email": "support@klarefi.com",
@@ -13,8 +13,8 @@
   "keywords": ["mcp", "intake", "compliance", "case-review"],
   "interface": {
     "displayName": "Klarefi",
-    "shortDescription": "AI intake agent for independent business lenders.",
-    "longDescription": "Klarefi is an AI intake agent for independent business lenders. Gather applicant context, work with documents, complete missing facts, and retrieve cited case files. Klarefi leaves regulated decisions with people.",
+    "shortDescription": "AI intake agent for lending, insurance and legal teams.",
+    "longDescription": "Klarefi is an AI intake agent for lending, insurance, legal and public-sector teams: it reads files, asks for missing items, cites every fact. A person decides. Gather applicant context, work with documents, complete missing facts, and retrieve cited case files.",
     "developerName": "Klarefi",
     "category": "Productivity",
     "capabilities": ["Remote MCP", "Interactive", "Read", "Write"],
@@ -30,5 +30,5 @@
       "Prepare the cited case file for this intake."
     ]
   },
-  "mcpServers": "./.mcp.json"
+  "mcpServers": "./codex/cli-mcp.json"
 }

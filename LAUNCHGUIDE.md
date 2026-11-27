@@ -2,11 +2,11 @@
 
 ## Tagline
 
-AI intake agent for independent business lenders.
+AI intake agent that prepares complete, cited files.
 
 ## Description
 
-Klarefi is an AI intake agent for independent business lenders. It guides applicants, reads submitted documents, resolves workflow facts with cited evidence, and prepares case files for operators. It also lets approved clients create intake sessions, inspect the operator queue, save workflow drafts, and run controlled connector actions.
+Klarefi is an AI intake agent for lending, insurance, legal and public-sector teams: it reads files, asks for missing items, cites every fact. A person decides. It guides applicants, resolves workflow facts with cited evidence, and prepares case files for operators. It also lets approved clients create intake sessions, inspect the operator queue, save workflow drafts, and run controlled connector actions.
 
 Klarefi completes the intake. It does not decide the case.
 
@@ -17,7 +17,6 @@ The hosted MCP server uses the stateless MCP `2026-07-28` protocol. Local client
 - `Authorization` (optional): Use `Bearer` followed by a Klarefi API key for customer and operator tools. Create a key in Klarefi Developer Settings.
 - Signed intake URL (optional): Applicant tools accept the signed URL from an intake invitation. They do not need an API key.
 - `KLAREFI_API_KEY` (optional, local package only): Klarefi API key for customer and operator tools.
-- `KLAREFI_API_BASE_URL` (optional, local package only): A Klarefi deployment URL. The hosted server does not accept caller-selected API origins.
 
 ## Category
 
