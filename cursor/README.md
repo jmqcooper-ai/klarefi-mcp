@@ -16,14 +16,20 @@ git clone https://github.com/jmqcooper-ai/klarefi-mcp ~/.cursor/plugins/local/kl
 On Enterprise plans, local plugins need **Allow Local Plugin Imports** under
 **Dashboard → Settings → Security & Identity → Marketplace and Plugins**.
 
-For a team on Teams or Enterprise, an admin can add this repository under
+For a team on Teams or Enterprise, Cursor documents adding a repository under
 **Dashboard → Plugins & MCPs → Team Marketplaces → Add Marketplace → Import
-from Repo**. Team members then install Klarefi from **Customize**.
+from Repo**, after which team members install from **Customize**. This
+repository has no Cursor marketplace file, and this route has not been tested.
 
 ## Set the key
 
-The plugin stores no key. A team admin sets `KLAREFI_API_KEY` in the dashboard
-under **Plugins**, when installing or later with **Configure** on the plugin.
+The plugin stores no key. For a team install, Cursor's documentation has a
+team admin set `KLAREFI_API_KEY` in the dashboard under **Plugins**, when
+installing or later with **Configure** on the plugin.
+
+Cursor's documentation does not say how a personal install from the local
+plugin folder supplies a plugin variable. For a personal setup, use the config
+below instead: it reads `KLAREFI_API_KEY` from Cursor's environment.
 
 ## Without the plugin
 

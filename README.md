@@ -20,7 +20,13 @@ upload.
 
 Customer tools need a Klarefi API key, sent as `Authorization: Bearer <key>`.
 Create one in Klarefi under **Settings → Developers**. Start with a test key.
-Applicant tools work from a signed intake URL and need no key.
+
+The server's applicant tools work from a signed intake URL and need no key.
+The client packages here still ask for one: they send
+`Authorization: Bearer ${KLAREFI_API_KEY}`, and Codex and the Cursor plugin
+require the variable to be set. To use only applicant tools, add the server
+without the `Authorization` header, as the
+[setup guide](https://www.klarefi.com/docs/api/connect-assistants) shows.
 
 ## Install
 

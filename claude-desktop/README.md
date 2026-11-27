@@ -6,7 +6,9 @@ MCP server on your computer over stdio. The server calls the Klarefi API under
 When you upload a document, the file goes to the storage address the API
 returns for that upload.
 
-1. Download `klarefi.mcpb`.
+1. Download `klarefi.mcpb` and check its SHA-256:
+   `14bba0e16bf0655005b0c65bdd657ac273e7e86191262b98cab80d6b0b709509`
+   (`sha256sum klarefi.mcpb` on Linux, `shasum -a 256 klarefi.mcpb` on macOS).
 2. Open it with Claude Desktop, review the extension and select **Install**.
 3. For customer tools, enter your key in **Klarefi API key** in the extension
    settings. The setting is marked sensitive. Leave it blank if you only use
