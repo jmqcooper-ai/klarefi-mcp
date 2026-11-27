@@ -1,0 +1,3 @@
+[mcp_servers.klarefi]
+url = "https://www.klarefi.com/mcp"
+headers = { Authorization = "Bearer ${KLAREFI_API_KEY}" }

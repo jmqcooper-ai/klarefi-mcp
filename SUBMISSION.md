@@ -2,7 +2,7 @@
 
 ## Short description
 
-Klarefi is an AI intake agent for independent business lenders. Complete intake work and retrieve cited case files.
+Klarefi is an AI intake agent for lending, insurance, legal and public-sector teams: it reads files, asks for missing items, cites every fact. A person decides.
 
 ## Full description
 

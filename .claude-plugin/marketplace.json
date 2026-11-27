@@ -1,0 +1,14 @@
+{
+  "name": "klarefi",
+  "owner": {
+    "name": "Klarefi",
+    "email": "support@klarefi.com"
+  },
+  "plugins": [
+    {
+      "name": "klarefi",
+      "source": "./"
+    }
+  ],
+  "description": "Connect Claude Code to the hosted Klarefi MCP server."
+}

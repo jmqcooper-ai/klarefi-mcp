@@ -2,12 +2,12 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "com.klarefi/mcp",
   "title": "Klarefi",
-  "description": "AI intake agent for independent business lenders. It completes the file and your credit team decides.",
+  "description": "AI intake agent that prepares complete, cited files. A person decides.",
   "repository": {
     "url": "https://github.com/jmqcooper-ai/klarefi-mcp",
     "source": "github"
   },
-  "version": "0.3.0",
+  "version": "0.4.0",
   "remotes": [
     {
       "type": "streamable-http",
@@ -26,7 +26,7 @@
     {
       "registryType": "npm",
       "identifier": "@klarefi/mcp",
-      "version": "0.3.0",
+      "version": "0.4.0",
       "transport": {
         "type": "stdio"
       },
@@ -37,13 +37,6 @@
           "format": "string",
           "isRequired": false,
           "isSecret": true
-        },
-        {
-          "name": "KLAREFI_API_BASE_URL",
-          "description": "Optional Klarefi deployment URL.",
-          "format": "string",
-          "isRequired": false,
-          "isSecret": false
         }
       ]
     }

@@ -1,41 +1,39 @@
 # Klarefi MCP
 
-[Klarefi](https://www.klarefi.com) is an AI intake agent for lending, mortgage,
-insurance and legal teams. It reads what customers send in, asks for anything
-missing and links each fact to its source. Your team makes the decision. The MCP server can guide applicants,
-read cited case files, manage workflow drafts and run approved connector
-actions.
+[Klarefi](https://www.klarefi.com) is an AI intake agent for lending,
+insurance, legal and public-sector teams. It reads what applicants send in,
+asks for anything missing and links each fact to its source. A person makes
+the decision.
 
-## Hosted server
-
-Use the hosted Streamable HTTP endpoint:
+This repository holds the install packages for the hosted Klarefi MCP server.
+Every package connects to the same endpoint:
 
 ```text
 https://www.klarefi.com/mcp
 ```
 
-[Choose an MCP client and connect Klarefi](https://install.apicommons.org/?server=https%3A%2F%2Fwww.klarefi.com%2F.well-known%2Fmcp%2Fserver.json)
+Customer tools need a Klarefi API key, sent as `Authorization: Bearer <key>`.
+Create one in Klarefi under **Settings → Developers**. Start with a test key.
+Applicant tools work from a signed intake URL and need no key.
 
-Customer tools require this header:
+## Install
 
-```text
-Authorization: Bearer KLAREFI_API_KEY
-```
+| Assistant      | Package                                                          | Guide                                          |
+| -------------- | ---------------------------------------------------------------- | ---------------------------------------------- |
+| Claude Code    | `.claude-plugin/` and `.mcp.json`                                | [claude-code/README.md](claude-code/README.md) |
+| Codex          | `.codex-plugin/`, `.agents/plugins/` and `codex/`                | [codex/README.md](codex/README.md)             |
+| Gemini CLI     | `gemini-extension.json`                                          | [gemini-cli/README.md](gemini-cli/README.md)   |
+| Claude Desktop | `claude-desktop/klarefi.mcpb`                                    | [claude-desktop/README.md](claude-desktop/README.md) |
+| Cursor         | `.cursor-plugin/` and `mcp.json`                                 | [cursor/README.md](cursor/README.md)           |
+| Grok Build     | `grok/config.toml.example`                                       | [grok/README.md](grok/README.md)               |
 
-Applicant tools can use a signed intake URL without an API key.
+For other clients, and to add the server by hand, see the
+[setup guide](https://www.klarefi.com/docs/api/connect-assistants).
+`server.json` is the MCP Registry entry.
 
-## Client packages
+## What was tested
 
-This repository includes ready-to-publish metadata for Codex, Claude, Cursor,
-and Antigravity. Each package connects to the same hosted server.
-
-- Codex: `.codex-plugin/plugin.json` and `.mcp.json`
-- Claude: `.claude-plugin/plugin.json` and `mcp.json`
-- Cursor: `.cursor-plugin/plugin.json` and `mcp.json`
-- Antigravity: `plugin.json` and `mcp_config.json`
-- MCP Registry: `server.json`
-
-For a local stdio client, run `bunx --bun @klarefi/mcp`.
+Being filled in from the install tests on this branch.
 
 ## Links
 
