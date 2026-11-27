@@ -9,6 +9,7 @@ gemini extensions install ./klarefi-mcp
 gemini mcp list
 ```
 
+Gemini CLI asks whether to trust the cloned folder; answer `y` to continue.
 Approve the extension and enter your key at the **Klarefi API key** prompt.
 The prompt masks the key. In a session, enter `/mcp list` to see the tools. To
 remove it, run `gemini extensions uninstall klarefi`.
