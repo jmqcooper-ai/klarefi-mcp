@@ -20,5 +20,6 @@ into `~/.codex/config.toml`, or follow the
 the plugin or the standalone entry, not both, so the server is not registered
 twice.
 
-[portable/](portable/) holds the same server in OpenAI's plugin package format,
-with bearer API-key authentication. It has not been tested in an OpenAI host.
+Klarefi uses a fixed API key sent as a bearer token. OpenAI's plugin
+submission portal cannot complete connection setup with a fixed bearer token,
+so this package is for direct installs, not a directory listing.
