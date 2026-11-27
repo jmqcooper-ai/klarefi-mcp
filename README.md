@@ -33,7 +33,25 @@ For other clients, and to add the server by hand, see the
 
 ## What was tested
 
-Being filled in from the install tests on this branch.
+Each package below was installed from this repository and pointed at a local
+Klarefi test instance. Each listed 21 tools and sent the test key it was given.
+
+- Claude Code 2.1.332: plugin installed from this repository's marketplace.
+- Codex CLI 0.172.0: plugin installed from this repository's marketplace.
+- Gemini CLI 0.71.1: extension installed from a clone of this repository.
+  Installing straight from the GitHub URL failed in this Gemini CLI version
+  with a git configuration error that is not specific to this extension.
+- Grok Build 1.0.92: `grok/config.toml.example`, checked with
+  `grok mcp doctor`.
+- Claude Desktop: the bundle's server was run over stdio outside Claude
+  Desktop. It listed 21 tools and addressed every request to
+  `https://www.klarefi.com`, even with another address set in its
+  environment.
+
+Not tested: installing the Claude Desktop bundle in Claude Desktop, the Cursor
+plugin, the Codex IDE extension, the OpenAI-format package in `codex/portable/`,
+and hosted assistants such as ChatGPT, Claude on the web, the Gemini app and
+Grok on the web.
 
 ## Links
 
